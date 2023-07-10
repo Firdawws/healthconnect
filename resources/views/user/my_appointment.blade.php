@@ -35,14 +35,7 @@
           <div class="col-sm-8 text-sm">
             
           </div>
-          <div class="col-sm-4 text-right text-sm"> 
-            <div class="social-mini-button">  
-              <a href="#"><span class="mai-logo-facebook-f"></span></a>  
-              <a href="#"><span class="mai-logo-twitter"></span></a> 
-              <a href="#"><span class="mai-logo-dribbble"></span></a> 
-              <a href="#"><span class="mai-logo-instagram"></span></a> 
-            </div>
-          </div>
+          
         </div> <!-- .row -->
       </div> <!-- .container -->
     </div> <!-- .topbar -->
@@ -73,7 +66,7 @@
               <a class="nav-link" href="about.html">About Us</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="doctors.html">Doctors</a>
+              <a class="nav-link" href="#">Doctors</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="blog.html">News</a>
@@ -122,6 +115,7 @@
         <tr style="background-color: black;">
             <th style="padding: 20px;font-size: 20px; color: white;">Doctor Name</th >
             <th style="padding: 20px; font-size: 20px; color: white;">  Date</th>
+            
             <th style="padding: 20px; font-size: 20px; color: white;">Message</th>
             <th style="padding: 20px; font-size: 20px; color: white;">Status</th>
 
@@ -135,8 +129,11 @@
         <tr style="background-color: skyblue" align="center">
             <td style="padding: 20px;  color: black;">{{$appoints->doctor}}</td>
             <td style="padding: 20px; color: black;">{{$appoints->date}}</td>
+           
             <td style="padding: 20px; color: black;">{{$appoints->message}}</td>
             <td style="padding: 20px; color: black;">{{$appoints->status}}</td>
+
+            
 
             <td><a class="btn btn-danger" onclick ="return confirm ('are you sure to delete this? ')" href="{{url('cancel_appoint',$appoints->id)}}"> cancel</a></td>
         </tr>

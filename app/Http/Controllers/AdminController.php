@@ -30,6 +30,8 @@ class AdminController extends Controller
 
         $doctor->email=$request->email;
 
+        $doctor->password=$request->password;
+
         $doctor->phone=$request->number;
 
         $doctor->speciality=$request->speciality;
@@ -126,5 +128,6 @@ public function emailview($id)
     return view('admin.email_view',compact('data'));
 
 }
+
 
 }

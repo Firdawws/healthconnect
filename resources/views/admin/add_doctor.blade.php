@@ -79,6 +79,13 @@
 
                     <div style="padding:15px;">
 
+                      <label>Password</label>
+                      <input type="text"style="color:black;" name="password" placeholder="give password.." required="" >
+
+                  </div>
+
+                    <div style="padding:15px;">
+
                         <label>Phone Number </label>
                         <input type="number"style="color:black;" name="number" placeholder="write the number" required="">
 

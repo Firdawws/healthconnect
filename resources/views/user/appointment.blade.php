@@ -35,6 +35,10 @@
             <input type="text" name="number" class="form-control" placeholder="Number..">
           </div>
           <div class="col-12 py-2 wow fadeInUp" data-wow-delay="300ms">
+           <!-- <label>Medical history</label>
+            <input type="file" name="medical history" class="form-control" placeholder="medical History">
+          </div>-->
+          <div class="col-12 py-2 wow fadeInUp" data-wow-delay="300ms">
             <textarea name="message" id="message" class="form-control" rows="6" placeholder="Enter message.."></textarea>
           </div>
         </div>

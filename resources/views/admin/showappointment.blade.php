@@ -38,11 +38,12 @@
         <div align ="center" style="padding-top:100px;">
             <table>
                 <tr style="background-color: black;">
-                    <th style = "padding: 10px">Customer Name</th>
+                    <th style = "padding: 10px">Patient Name</th>
                     <th style = "padding: 10px">Email</th>
                     <th style = "padding: 10px">Phone</th>
                     <th style = "padding: 10px">Doctor Name</th>
                     <th style = "padding: 10px">Date</th>
+                   
                     <th style = "padding: 10px">Message</th>
                     <th style = "padding: 10px">Status</th>
                     <th style = "padding: 10px">Approved</th>
@@ -60,6 +61,7 @@
                     <td>{{$appoint->phone}}</td>
                     <td>{{$appoint->doctor}}</td>
                     <td>{{$appoint->date}}</td>
+                  
                     <td>{{$appoint->message}}</td>
                     <td>{{$appoint->status}}</td>
                     <td>

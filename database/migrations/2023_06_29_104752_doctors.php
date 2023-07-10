@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('name');
             
             $table->string('email')->unique();
+            $table->string('password')->unique();
             $table->string('phone')->nullable();
             $table->string('speciality')->nullable();
             $table->string('image')->nullable();
@@ -30,6 +31,7 @@ return new class extends Migration
     public function down(): void
     {
         Schema::dropIfExists('doctors');
+        
     }
 };
 

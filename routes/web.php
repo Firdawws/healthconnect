@@ -57,3 +57,5 @@ Route::get('/approved/{id}', [AdminController::class, 'approved']);
 Route::get('/cancelled/{id}', [AdminController::class, 'cancelled']);
 Route::get('/emailview/{id}', [AdminController::class, 'emailview']);
 Route::post('/sendemail/{id}', [AdminController::class, 'sendemail']);
+
+
