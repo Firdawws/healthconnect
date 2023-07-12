@@ -51,14 +51,14 @@
       <div class="container">
         <a class="navbar-brand" href="#"><span class="text-primary">Health</span>-Connect</a>
 
-        <form action="#">
+       <!-- <form action="#">
           <div class="input-group input-navbar">
             <div class="input-group-prepend">
               <span class="input-group-text" id="icon-addon1"><span class="mai-search"></span></span>
             </div>
             <input type="text" class="form-control" placeholder="Enter keyword.." aria-label="Username" aria-describedby="icon-addon1">
           </div>
-        </form>
+        </form>  -->
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupport" aria-controls="navbarSupport" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -78,9 +78,7 @@
             <li class="nav-item">
               <a class="nav-link" href="blog.html">News</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
+            
 
             @if(Route::has('login'))
 
@@ -88,6 +86,14 @@
 
             <li class="nav-item">
               <a class="nav-link" style="background-color: rgb(197, 214, 172);" href="{{url('myappointment')}}">My Appointment</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Prescription</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Payment</a>
             </li>
 
 
@@ -198,11 +204,27 @@
 
   </div> <!-- .page-section -->
 
-  @include('user.appointment')
+ @if(Route::has('login'))
 
+            @auth
+
+            @include('user.appointment')
+
+
+           
+
+            @else
+     
+            
+
+            
    <!-- .page-section -->
 
    @include('user.testimonials')
+
+   @endauth
+
+     @endif
 
   
   </div> <!-- .banner-home -->
@@ -258,6 +280,8 @@
      <!-- <p id="copyright">Copyright &copy; 2020 <a href="https://macodeid.com/" target="_blank">MACode ID</a>. All right reserved</p>  -->
     </div>
   </footer>
+
+  
 
 <script src="../assets/js/jquery-3.5.1.min.js"></script>
 

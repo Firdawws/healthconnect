@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\http\Controllers\HomeController;
 use App\http\Controllers\AdminController;
+use App\http\Controllers\DoctorController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -25,7 +26,7 @@ Route::get('/', [HomeController::class, 'index']);
 Route::get('/home', [HomeController::class, 'redirect'])->middleware('auth','verified');
  
 
-   
+Route::get('/main', [DoctorController::class, 'main']);
 
 Route::middleware([
     'auth:sanctum',
