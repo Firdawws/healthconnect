@@ -1,4 +1,5 @@
 Project Name - Health Connect
+
 Welcome to the Read Me file for the Health Connect project. This document provides an overview of the project, its features, and instructions to get started.
 
 Table of Contents:
@@ -66,7 +67,7 @@ Administrators can manage user accounts, appointments, and system configurations
 Follow the on-screen instructions to navigate through the application and utilize its functionalities.
 
 6. Contributions
-Contributions to the Telemedicine Web Application project are welcome. If you would like to contribute, please follow these steps:
+Contributions to the Health Connect project are welcome. If you would like to contribute, please follow these steps:
 
 Fork the repository on GitHub.
 Create a new branch for your feature or bug fix: git checkout -b feature/your-feature-name or git checkout -b bugfix/your-bug-fix.
