@@ -4,23 +4,18 @@
 
 ## Table of Contents:
 
-[Introduction](#introduction)
+- [Introduction](#introduction)
+- [Features](#features)
+- [Technologies Used](#technologies_used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributions](#contributions)
 
-[Features](#features)
-
-[Technologies Used](#technologies_used)
-
-[Installation](#installation)
-
-[Usage](#usage)
-
-[Contributions](#contributions)
-
-## 1. Introduction
+## Introduction
    
 Health Connect is a web-based platform that enables remote medical consultations between patients and doctors. It aims to provide convenient access to healthcare services, allowing patients to schedule appointments, communicate securely with doctors, and receive medical advice or prescriptions from the comfort of their own homes. This project utilizes modern web technologies to create an intuitive and user-friendly telemedicine platform.
 
-## 2. Features
+## Features
    
 Health Connect includes the following key features:
 
@@ -38,19 +33,19 @@ Prescription and Medical Advice: Doctors can provide prescriptions and medical a
 
 Admin Dashboard: Administrators have access to a dedicated dashboard for managing user accounts, appointments, and system configurations.
 
-## 3. Technologies_Used
+## Technologies_Used
    
 Health Connect is built using the following technologies:
 
- ##pre-requisites
+ ## Pre-requisites
  
-Front-end: [Laravel version 8.2 or higher](https://laravel.com/docs/4.2)
-Back-end: [Node.js](https://nodejs.org/en/download)
-Database: [MySQL version 8.4 or higher](https://www.apachefriends.org/download.html)
-Video Conferencing: [Zoom](https://zoom.us/download)
+1. [Laravel version 8.2 or higher](https://laravel.com/docs/4.2)
+2. [Node.js](https://nodejs.org/en/download)
+3. [MySQL version 8.4 or higher](https://www.apachefriends.org/download.html)
+4. [Zoom](https://zoom.us/download)
 
 
-## 4. Installation
+## Installation
    
 To set up Health Connect locally, follow these steps:
 
@@ -61,37 +56,37 @@ Clone the repository from GitHub:
 
 git clone
 ``` 
-Navigate to the project directory: cd telemedicine-web-application
-Install the dependencies: npm install
-Set up the environment variables:
-Create a .env file in the root directory.
-Define the necessary environment variables, such as database connection details and secret keys. Refer to the .env.example file for guidance.
-Set up the MongoDB database:
-Install and configure MongoDB on your machine or use a cloud-based MongoDB service.
-Update the database connection details in the .env file.
-Build the front-end: npm run build
-Start the server: npm start
+1. Navigate to the project directory: cd HealthConnect
+2. Install the dependencies: npm install
+3. Set up the environment variables:
+4. Create a .env file in the root directory.
+5. Define the necessary environment variables, such as database connection details and secret keys. Refer to the .env.example file for guidance.
+6. Set up the MongoDB database:
+7. Install and configure MongoDB on your machine or use a cloud-based MongoDB service.
+8. Update the database connection details in the .env file.
+9. Build the front-end: npm run build
+10. Start the server: npm start
 
-## 5. Usage
+## Usage
 Once the Health Connect is installed and running, follow these steps to start using it:
 
-Access the application through your web browser at the specified URL.
-Register an account as a patient, doctor, or administrator.
-Log in to your account using the provided credentials.
-Explore the available features based on your user role:
-Patients can schedule appointments, communicate with doctors, and view medical advice or prescriptions.
-Doctors can accept appointment requests, conduct video consultations, and provide medical advice or prescriptions.
-Administrators can manage user accounts, appointments, and system configurations.
-Follow the on-screen instructions to navigate through the application and utilize its functionalities.
+1. Access the application through your web browser at the specified URL.
+2. Register an account as a patient, doctor, or administrator.
+3. Log in to your account using the provided credentials.
+4. Explore the available features based on your user role:
+5. Patients can schedule appointments, communicate with doctors, and view medical advice or prescriptions.
+6. Doctors can accept appointment requests, conduct video consultations, and provide medical advice or prescriptions.
+7. Administrators can manage user accounts, appointments, and system configurations.
+8. Follow the on-screen instructions to navigate through the application and utilize its functionalities.
 
-## 6. Contributions
+## Contributions
 Contributions to the Health Connect project are welcome. If you would like to contribute, please follow these steps:
 
-Fork the repository on GitHub.
-Create a new branch for your feature or bug fix: git checkout -b feature/your-feature-name or git checkout -b bugfix/your-bug-fix.
-Make the necessary changes and commit them with descriptive commit messages.
-Push your changes to the forked repository: git push origin your-branch-name.
-Open a pull request on the original repository, describing your changes and their purpose.
+1. Fork the repository on GitHub.
+2. Create a new branch for your feature or bug fix: git checkout -b feature/your-feature-name or git checkout -b bugfix/your-bug-fix.
+3. Make the necessary changes and commit them with descriptive commit messages.
+4. Push your changes to the forked repository: git push origin your-branch-name.
+5. Open a pull request on the original repository, describing your changes and their purpose.
 
 
 
