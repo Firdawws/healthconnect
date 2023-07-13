@@ -31,7 +31,7 @@ Admin Dashboard: Administrators have access to a dedicated dashboard for managin
    
 The Telemedicine Web Application is built using the following technologies:
 
-Front-end: HTML, CSS,, PHP, Laravel
+Front-end: HTML, CSS,HTML , JavaScript, Blade, SCSS, PHP
 Back-end: Node.js, 
 Database: Xampp
 Video Conferencing: Zoom, Google meet
