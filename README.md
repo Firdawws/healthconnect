@@ -21,11 +21,17 @@ Health Connect is a web-based platform that enables remote medical consultations
 Health Connect includes the following key features:
 
 User Registration and Login: Patients, doctors, and administrators can create accounts and securely log in to the system.
+
 Appointment Scheduling: Patients can browse available doctors, select preferred time slots, and schedule appointments.
+
 Secure Communication: Patients and doctors can securely exchange messages, providing a channel for asking questions and sharing information.
+
 Video Consultations: The application supports real-time video consultations between patients and doctors, ensuring seamless communication.
+
 Medical History Management: Patients can fill out and submit their medical history forms, which doctors can access and review before consultations.
+
 Prescription and Medical Advice: Doctors can provide prescriptions and medical advice to patients based on their consultations.
+
 Admin Dashboard: Administrators have access to a dedicated dashboard for managing user accounts, appointments, and system configurations.
 
 3. Technologies Used
