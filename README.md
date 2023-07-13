@@ -5,11 +5,17 @@ Welcome to the Read Me file for the Health Connect project. This document provid
 Table of Contents:
 
 Introduction
+
 Features
+
 Technologies Used
+
 Installation
+
 Usage
+
 Contributions
+
 License
 
 1. Introduction
