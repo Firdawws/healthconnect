@@ -1,8 +1,8 @@
-Project Name - Health Connect
+# Project Name - Health Connect
 
-Welcome to the Read Me file for the Health Connect project. This document provides an overview of the project, its features, and instructions to get started.
+## Welcome to the Read Me file for the Health Connect project. This document provides an overview of the project, its features, and instructions to get started.
 
-Table of Contents:
+## Table of Contents:
 
 Introduction
 
@@ -54,7 +54,13 @@ Authentication and Security: Google
    
 To set up Health Connect locally, follow these steps:
 
-Clone the repository from GitHub: git clone <repository_url>
+Clone the repository from GitHub:
+
+```bash
+
+
+git clone
+``` 
 Navigate to the project directory: cd telemedicine-web-application
 Install the dependencies: npm install
 Set up the environment variables:
