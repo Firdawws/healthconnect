@@ -50,8 +50,8 @@ To set up Health Connect locally, follow these steps:
 
 git clone
 ``` 
-2. Navigate to the project directory:  ## cd HealthConnect
-3. Install the dependencies: ## npm install
+2. Navigate to the project directory:  cd HealthConnect
+3. Install the dependencies: npm install
 4. Set up the environment variables
 5. Create a .env file in the root directory.
 6. Define the necessary environment variables, such as database connection details and secret keys. Refer to the .env.example file for guidance.
