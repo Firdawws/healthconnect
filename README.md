@@ -18,11 +18,11 @@ Contributions
 
 License
 
-1. Introduction
+##1. Introduction
    
 Health Connect is a web-based platform that enables remote medical consultations between patients and doctors. It aims to provide convenient access to healthcare services, allowing patients to schedule appointments, communicate securely with doctors, and receive medical advice or prescriptions from the comfort of their own homes. This project utilizes modern web technologies to create an intuitive and user-friendly telemedicine platform.
 
-2. Features
+##2. Features
    
 Health Connect includes the following key features:
 
@@ -40,7 +40,7 @@ Prescription and Medical Advice: Doctors can provide prescriptions and medical a
 
 Admin Dashboard: Administrators have access to a dedicated dashboard for managing user accounts, appointments, and system configurations.
 
-3. Technologies Used
+##3. Technologies Used
    
 Health Connect is built using the following technologies:
 
@@ -50,7 +50,7 @@ Database: Xampp
 Video Conferencing: Zoom, Google meet
 Authentication and Security: Google 
 
-4. Installation
+##4. Installation
    
 To set up Health Connect locally, follow these steps:
 
@@ -72,7 +72,7 @@ Update the database connection details in the .env file.
 Build the front-end: npm run build
 Start the server: npm start
 
-5. Usage
+##5. Usage
 Once the Health Connect is installed and running, follow these steps to start using it:
 
 Access the application through your web browser at the specified URL.
@@ -84,7 +84,7 @@ Doctors can accept appointment requests, conduct video consultations, and provid
 Administrators can manage user accounts, appointments, and system configurations.
 Follow the on-screen instructions to navigate through the application and utilize its functionalities.
 
-6. Contributions
+##6. Contributions
 Contributions to the Health Connect project are welcome. If you would like to contribute, please follow these steps:
 
 Fork the repository on GitHub.
