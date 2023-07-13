@@ -1,4 +1,4 @@
-# Project Name - Health Connect
+# Health Connect
 
 Welcome to the Read Me file for the Health Connect project. This document provides an overview of the project, its features, and instructions to get started.
 
