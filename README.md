@@ -14,11 +14,11 @@ License
 
 1. Introduction
    
-The Telemedicine Web Application is a web-based platform that enables remote medical consultations between patients and doctors. It aims to provide convenient access to healthcare services, allowing patients to schedule appointments, communicate securely with doctors, and receive medical advice or prescriptions from the comfort of their own homes. This project utilizes modern web technologies to create an intuitive and user-friendly telemedicine platform.
+Health Connect is a web-based platform that enables remote medical consultations between patients and doctors. It aims to provide convenient access to healthcare services, allowing patients to schedule appointments, communicate securely with doctors, and receive medical advice or prescriptions from the comfort of their own homes. This project utilizes modern web technologies to create an intuitive and user-friendly telemedicine platform.
 
 2. Features
    
-The Telemedicine Web Application includes the following key features:
+Health Connect includes the following key features:
 
 User Registration and Login: Patients, doctors, and administrators can create accounts and securely log in to the system.
 Appointment Scheduling: Patients can browse available doctors, select preferred time slots, and schedule appointments.
@@ -30,7 +30,7 @@ Admin Dashboard: Administrators have access to a dedicated dashboard for managin
 
 3. Technologies Used
    
-The Telemedicine Web Application is built using the following technologies:
+Health Connect is built using the following technologies:
 
 Front-end: HTML, CSS,HTML , JavaScript, Blade, SCSS, PHP
 Back-end: Node.js, 
@@ -40,7 +40,7 @@ Authentication and Security: Google
 
 4. Installation
    
-To set up the Telemedicine Web Application locally, follow these steps:
+To set up Health Connect locally, follow these steps:
 
 Clone the repository from GitHub: git clone <repository_url>
 Navigate to the project directory: cd telemedicine-web-application
@@ -55,7 +55,7 @@ Build the front-end: npm run build
 Start the server: npm start
 
 5. Usage
-Once the Telemedicine Web Application is installed and running, follow these steps to start using it:
+Once the Health Connect is installed and running, follow these steps to start using it:
 
 Access the application through your web browser at the specified URL.
 Register an account as a patient, doctor, or administrator.
