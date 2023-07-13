@@ -55,8 +55,8 @@ git clone
 3. Set up the environment variables:
 4. Create a .env file in the root directory.
 5. Define the necessary environment variables, such as database connection details and secret keys. Refer to the .env.example file for guidance.
-6. Set up the MongoDB database:
-7. Install and configure MongoDB on your machine or use a cloud-based MongoDB service.
+6. Set up the MySQL database:
+7. Install and configure Xampp to run Apache and MySQL
 8. Update the database connection details in the .env file.
 9. Build the front-end: npm run build
 10. Start the server: npm start
