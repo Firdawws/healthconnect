@@ -33,33 +33,33 @@ Health Connect is built using the following technologies:
 
  ## Pre-requisites
  
-1. [Laravel version 8.2 or higher](https://laravel.com/docs/4.2)
+1. [Laravel version 8.2 or higher](https://laravel.com/docs/4.2) 
 2. [Node.js](https://nodejs.org/en/download)
 3. [MySQL version 8.4 or higher](https://www.apachefriends.org/download.html)
 4. [Zoom](https://zoom.us/download)
-
+5. [Chatify](https://chatify.munafio.com/)
 
 ## Installation
    
 To set up Health Connect locally, follow these steps:
 
-Clone the repository from GitHub:
+1. Clone the repository from GitHub:
 
 ```bash
 
 
 git clone
 ``` 
-1. Navigate to the project directory: cd HealthConnect
-2. Install the dependencies: npm install
-3. Set up the environment variables:
-4. Create a .env file in the root directory.
-5. Define the necessary environment variables, such as database connection details and secret keys. Refer to the .env.example file for guidance.
-6. Set up the MySQL database:
-7. Install and configure Xampp to run Apache and MySQL
-8. Update the database connection details in the .env file.
-9. Build the front-end: npm run build
-10. Start the server: npm start
+2. Navigate to the project directory:  ## cd HealthConnect
+3. Install the dependencies: ## npm install
+4. Set up the environment variables
+5. Create a .env file in the root directory.
+6. Define the necessary environment variables, such as database connection details and secret keys. Refer to the .env.example file for guidance.
+7. Set up the MySQL database.
+8. Install and configure Xampp to run Apache and MySQL.
+9. Update the database connection details in the .env file.
+10. Build the front-end: npm run build
+11. Start the server: npm start
 
 ## Usage
 Once the Health Connect is installed and running, follow these steps to start using it:
