@@ -76,7 +76,7 @@ Push your changes to the forked repository: git push origin your-branch-name.
 Open a pull request on the original repository, describing your changes and their purpose.
 
 7. License
-The Telemedicine Web Application project is released under the MIT License. You are free to use, modify, and distribute the codebase for personal and commercial purposes. Refer to the LICENSE file for more information.
+The Health Connect project is released under the MIT License. You are free to use, modify, and distribute the codebase for personal and commercial purposes. Refer to the LICENSE file for more information.
 
 Thank you for your interest in the Telemedicine Web Application project. We hope it provides value in the field of remote healthcare delivery.
 
