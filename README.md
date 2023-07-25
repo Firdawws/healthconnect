@@ -1,3 +1,4 @@
+
 # Health Connect
 Welcome to the Read Me file for the Health Connect project. This document provides an overview of the project, its features, and instructions to get started.
 
@@ -14,7 +15,6 @@ Welcome to the Read Me file for the Health Connect project. This document provid
    
 health Connect is a web-based platform that enables remote medical consultations between patients and doctors. It aims to provide convenient access to healthcare services, allowing patients to schedule appointments, communicate securely with doctors, and receive medical advice or prescriptions from the comfort of their own homes. This project utilizes modern web technologies to create an intuitive and user-friendly telemedicine platform.
 
-   
 HealthConnect is built using the following technologies:
 
  ## Pre-requisites
