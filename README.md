@@ -17,7 +17,7 @@ health Connect is a web-based platform that enables remote medical consultations
 
 
    
-Health Connect is built using the following technologies:
+HealthConnect is built using the following technologies:
 
  ## Pre-requisites
  
