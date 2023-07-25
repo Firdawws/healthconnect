@@ -13,21 +13,9 @@ Welcome to the Read Me file for the Health Connect project. This document provid
 
 ## Introduction
    
-Health Connect is a web-based platform that enables remote medical consultations between patients and doctors. It aims to provide convenient access to healthcare services, allowing patients to schedule appointments, communicate securely with doctors, and receive medical advice or prescriptions from the comfort of their own homes. This project utilizes modern web technologies to create an intuitive and user-friendly telemedicine platform.
+health Connect is a web-based platform that enables remote medical consultations between patients and doctors. It aims to provide convenient access to healthcare services, allowing patients to schedule appointments, communicate securely with doctors, and receive medical advice or prescriptions from the comfort of their own homes. This project utilizes modern web technologies to create an intuitive and user-friendly telemedicine platform.
 
-## Features
-   
-Health Connect includes the following key features:
 
-1. User Registration and Login: Patients, doctors, and administrators can create accounts and securely log in to the system.
-2. Appointment Scheduling: Patients can browse available doctors, select preferred time slots, and schedule appointments.
-3. Secure Communication: Patients and doctors can securely exchange messages, providing a channel for asking questions and sharing information.
-4. Video Consultations: The application supports real-time video consultations between patients and doctors, ensuring seamless communication.
-5. Medical History Management: Patients can fill out and submit their medical history forms, which doctors can access and review before consultations.
-6. Prescription and Medical Advice: Doctors can provide prescriptions and medical advice to patients based on their consultations.
-7. Admin Dashboard: Administrators have access to a dedicated dashboard for managing user accounts, appointments, and system configurations.
-
-## Technologies_Used
    
 Health Connect is built using the following technologies:
 
