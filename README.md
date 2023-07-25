@@ -18,6 +18,7 @@ health Connect is a web-based platform that enables remote medical consultations
 HealthConnect is built using the following technologies:
 
  ## Pre-requisites
+
  
 1. [Laravel version 8.2 or higher](https://laravel.com/docs/4.2) 
 2. [Node.js](https://nodejs.org/en/download)
