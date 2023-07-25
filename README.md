@@ -49,7 +49,7 @@ git clone
 11. Start the server: npm start
 
 ## Usage
-Once Health Connect is installed and running, follow these steps to start using it:
+Once Health Connect is installed and running, follow these steps to start using it,
 
 1. Access the application through your web browser at the specified URL.
 2. Register an account as a patient, doctor, or administrator.
